@@ -1,0 +1,31 @@
+.Map{
+    display: flex;
+    background-repeat: no-repeat;
+    margin-top: 115px;
+}
+
+.Map .container{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Map .container .open{
+    font-size: 30px;
+    color: #f38181;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.Map .container .open::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2.5px;
+    margin: 25px auto;
+    background-color: #f38181;
+}

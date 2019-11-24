@@ -1,0 +1,25 @@
+.ImagesInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    background-color: #95e1d3;
+    margin: 0 53px 0 0;
+    width: 380px;
+}
+.about-img div img {
+    display: block;
+}
+.about-img div {
+    width: 380px;
+    margin: 0 35px 0 0;
+    background: linear-gradient(to bottom,#f57f7f,#fce38a);
+    transition: transform .2s linear; 
+}
+.about-img div:hover{
+    transform: translate3d(-10px, -10px, 0) ;
+}
+.about-img:hover div img{
+    opacity: .1;
+}

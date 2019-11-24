@@ -1,0 +1,50 @@
+.ServiceSlider{    
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 100%;
+    height: 240px;
+    margin-top: 145px;
+}
+
+.ServiceSlider .slider{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.ServiceSlider .slider .slider-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.ServiceSlider .slider .slider-intro .citate-autor{
+    padding: 40px;
+}
+
+.ServiceSlider .slider .slider-intro .citate-autor p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.ServiceSlider .slider .slider-intro .citate-autor div{
+    font-size: 25px;
+    font-family: 'Kaushan Script';
+}
+
+.ServiceSlider .slider button{
+    border: none;
+    outline: none;
+    width: 50px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.slider .left{
+    /* font-size: 40px; */
+}

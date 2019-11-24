@@ -1,0 +1,58 @@
+/*section*/
+
+.OurTeam .section .lorem{
+    text-align: center;
+    font-family: 'Arial';
+    opacity: 0.3;
+    line-height: 1.8;
+}
+
+
+.OurTeam .team-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.OurTeam .team-items div .team-items-names{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 53px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+}
+.team-items div .team-items-names div{
+    opacity: 0.5;
+    line-height: 2;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.OurTeam .team-logos-back{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 248px;
+    margin-top: 112px;
+}
+.team-logos-back .team-logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.team-logos-back .team-logos img{
+    margin-right: 80px;
+}
+.team-logos-back .team-logos img:first-child{
+    margin-left: 80px;
+}
+
+

@@ -1,0 +1,45 @@
+.SomeWork{
+    margin-top: 100px;
+}
+
+/*Section*/
+
+.SomeWork .section .lorem{
+    text-align: center;
+    font-family: 'Arial';
+    opacity: 0.3;
+    line-height: 1.8;
+}
+.SomeWork .pics{
+    height: 780px;
+    display: flex;
+    flex-flow: wrap;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.SomeWork .pics div {
+    width: 480px;
+    height: 390px;
+    background: linear-gradient(to bottom,#f57f7f,#fce38a);
+    transition: transform .2s linear; 
+}
+.SomeWork .pics .long{
+    width: 480px;
+    height: 780px;
+    background: linear-gradient(to bottom,#f57f7f,#fce38a);
+    transition: transform .2s linear; 
+}
+/* .SomeWork .pics div {
+    background: linear-gradient(to bottom,#f57f7f,#fce38a);
+    transition: transform .2s linear; 
+}
+.SomeWork .pics div :hover{
+    transform: translate3d(-10px, -10px, 0) ;
+
+}
+.SomeWork .pics:hover img{
+    opacity: .1;
+} */
+.SomeWork .pics div:hover img{
+    opacity: .1;
+} 

@@ -1,0 +1,38 @@
+.OurProgress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #95e1d3;
+    height: 300px;
+}
+.OurProgress .progress-item {
+    display: flex;
+    height: 100%;
+    color: white;
+    width: 240px;
+    justify-content: center;
+    text-align: center; 
+    border-left: solid #b5eae0 2px;
+}
+
+.OurProgress .last_progress_item{
+    border-right: solid #b5eae0 2px;
+}
+
+.progress-item .span_div{
+    padding: 70px 25px;
+    align-items: center;
+}
+.progress-item .span_div div{
+    font-family: 'Montserrat';
+    font-size: 10pt;
+}
+
+.progress-item .span_div span {
+    font-size: 65pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

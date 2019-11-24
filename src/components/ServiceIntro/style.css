@@ -1,0 +1,63 @@
+.ServiceIntro{
+    padding: 0 30px;
+    height: 380px;
+}
+
+.ServiceIntro .intro-nav{
+    width: 600px;
+    margin-bottom: 7px;
+}
+.intro-nav .logo-h{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border: solid  rgba(0, 0, 0, 0.068) 1px;
+}
+.logo-h div{
+    margin-left: 15px;
+    font-size: 15pt;
+    text-transform: uppercase;
+}
+.scroll{
+    padding: 20px;
+    font: 14pt;
+    border: solid  rgba(0, 0, 0, 0.068) 1px;
+    border-top: none;
+}
+.scroll p{
+    margin:0;
+    max-height: 135px;
+    overflow: auto;
+    opacity: 0.6;
+}
+
+/* Scroll STYLE */
+
+ .scroll p::-webkit-scrollbar-track
+ {
+     border-radius: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+ .scroll p::-webkit-scrollbar
+ {
+     width: 7px;
+     background-color: #F5F5F5;
+ }
+ 
+ .scroll p::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     background-color: #95e1d3;
+ }
+
+
+.drop-arrow{
+    justify-content: flex-end;
+    border:none;
+    background-color:white;
+    opacity: 0.3;
+    font-size: 25px;
+    cursor: pointer;
+}

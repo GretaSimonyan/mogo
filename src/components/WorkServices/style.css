@@ -1,0 +1,52 @@
+.WorkServices{    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*section*/
+
+.WorkServices .services{
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-size: 15pt;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+.services .services_items{
+    position: relative;
+    padding-left: 90px ;
+    flex: 1 1 0;
+}
+.services_items .items-icon{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 1;
+}
+.services_items .items-name{
+    text-transform: uppercase;
+    font-size: 11pt;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.services_items .items-lorem{
+    opacity: 0.3;
+    font-size: 12px;
+}
+
+.WorkServices hr{
+    background-color: #e5e5e59f;
+    opacity: 0.3;
+    width: 100%;
+    height: 0.1px;
+}

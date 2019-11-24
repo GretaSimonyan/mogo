@@ -1,0 +1,64 @@
+/* .OurStoryes{
+    display: flex;
+    justify-content: space-between;
+} */
+.blog-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.blog-item .item-calendar{
+    font-family: 'Montserrat';
+    
+}
+.blog-item .item-calendar .heading{
+    margin: 15px auto;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.blog-item .item-calendar .about{
+    width: 380px;
+    opacity: 0.6;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.blog-item .item-calendar hr{
+    background-color: #e5e5e59f;
+    opacity: 0.3;
+    width: 100%;
+    height: 0.1px;
+}
+.blog-item .item-calendar .seen-comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    font-size: 14px;
+}
+.blog-item .item-calendar .seen-comment span{
+    opacity: 0.5;
+}
+
+
+
+.calendar-img{
+    width: 379px;
+    height: 240px;
+    /* position: absolute; */
+}
+.calendar-img div{
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 160px;
+    right: 10px;
+}
